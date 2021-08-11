@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-auth.js"></script>
+
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyBDwdcHgTKlm48pfxsOnYpzP7QuZ9SjS_4",
+            authDomain: "quiz-app-e683b.firebaseapp.com",
+            projectId: "quiz-app-e683b",
+            storageBucket: "quiz-app-e683b.appspot.com",
+            messagingSenderId: "789511391999",
+            appId: "1:789511391999:web:153cfa450dc5d067f21aca",
+            measurementId: "G-T6E7GQKV3R"
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav">
+            <a href="#">Quiz Application</a>
+        </div>
+
+        <div class="container">
+            <div class="mainPage">
+                <div class="loginForm" style="margin-top: 80px;">
+                    <label>
+                        <h2 class="sign">Sign Up</h2>
+                    </label>
+                    <label for="name">
+                        <h5>Name:</h5>
+                        <input type="text" name="name" id="name" placeholder="Enter your name" required = "required" style="margin-bottom: 28px;">
+                    </label>
+                    <label for="email2">
+                        <h5>Email:</h5>
+                        <input type="email" name="email" id="email2" placeholder="Enter your email" required="required">
+                    </label>
+                    <br>
+                    <br>
+                    <label for="password2">
+                        <h5>Password:</h5>
+                        <input type="password" name="password" id="password2" placeholder="Enter your password"
+                            required>
+                    </label>
+                    <br>
+                    <br>
+                    <a style="float: right;cursor: pointer; color: rgba(0,0,255,0.7); text-decoration: underline;" onclick="window.location.replace('index.html')">Login?</a>
+                </div>
+            </div>
+            <div id="startquiz">
+                <button onclick="signup()">Sign Up</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

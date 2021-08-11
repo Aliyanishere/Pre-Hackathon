@@ -1,0 +1,131 @@
+.nav{
+    height: 54px;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    background-color: rgb(209, 152, 95);
+}
+.levelnav{
+    height: 34px;
+    padding: 10px;
+    justify-content: center;
+    background-color: rgb(209, 152, 95);
+}
+.mainPage {
+    display: flex;
+    justify-content: center;
+}
+
+.loginForm {
+    padding: 28px;
+    margin-top: 120px;
+    border: 2px solid gray;
+    width: 280px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black   ;
+}
+.loginForm:hover {
+    margin-top: 118px;
+    margin-left: -3px;
+    transition: 0.5s;
+    box-shadow: 3px 3px 5px rgb(58, 57, 57);
+}
+.sign{
+    margin-left: 58px !important;
+}
+.loginForm h2 {
+    text-shadow: 2px 2px 2px teal;
+    margin-bottom: 50px;
+    margin-left: 65px;
+    text-decoration: underline;
+}
+.loginForm h5 {
+    text-shadow: 1px 1px 2px teal;
+}
+#startquiz{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#startquiz button{
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+#startquiz button:hover{
+    margin-left: -5px;
+    transition: 0.4s;
+    box-shadow: 3px 3px 2px palegreen;
+}
+.loginForm{
+    background-color: rgb(231, 231, 231);
+}
+.main{
+    background-color: rgb(255, 239, 215);
+    height: 100vh;
+    flex-wrap: wrap;
+    width: 100%;
+}
+@media only screen and (max-height: 580px){
+    .main{
+        height: max-content;
+    }
+}
+.nav a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: black;
+}
+.levelMain h1{
+    text-decoration: underline solid;
+    color: rgb(3, 196, 196);
+    text-shadow: 3px 3px 2px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 120px;
+}
+*{
+    margin: 0;
+}
+.levelMain{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+@media only screen and (max-height: 435px){
+    .levelMain{
+        height: max-content;
+    }
+}
+.button{
+    margin-top: 80px;
+    padding-bottom: 30px;
+}
+.levelMain button{
+    border-radius: 15px;
+    color: black;
+    font-family: monospace;
+    text-shadow: 1px 1px 1px rgb(3, 252, 36);
+    background-color: rgb(208, 247, 247);
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px;
+    height: 50px;
+    width: 250px;
+}
+.levelMain button:focus{
+    background-color: rgb(247, 217, 178);
+}
+.signout button{
+    float: right;
+    font-size: 15px;
+    width: 100px;
+    height: 35px;
+    background-color: antiquewhite;
+}

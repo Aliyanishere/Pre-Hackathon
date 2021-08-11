@@ -1,0 +1,122 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.card-header{
+    text-align: center;
+}
+#minutes, #seconds{
+    padding-left: 2px;
+    font-weight: bold;
+    float: right;
+}
+.card-header p{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.options{
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#answ1,#answ2,#answ3,#answ4,#same,#same1,#same2,#same3{
+    cursor: pointer;
+}
+.options input{
+    margin: 11px;
+    margin-right: -0px;
+}
+.options label{
+    display: inline;
+    font-size: 16px;
+}
+#main{
+    margin-bottom: -16px;
+    background-color: rgb(0,255,0,0.1);
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    padding-bottom: 50px;
+    padding-top: 130px;
+}
+@media only screen and (max-height: 555px){
+    #main{
+        height: max-content;
+    }
+}
+@media only screen and (max-height: 514px){
+    #main{
+        height: 100vh;
+    }
+    .container{
+        padding-top: 80px;
+    }
+}
+@media only screen and (max-height: 504px){
+    #main{
+        height: max-content;
+    }
+}
+@media only screen and (max-height: 475px){
+    #main{
+        height: 100vh;
+    }
+    .container{
+        padding-top: 40px;
+    }
+}
+@media only screen and (max-height: 464px){
+    #main{
+        height: max-content;
+    }
+}
+.forShadow{
+    box-shadow: 3px 4px 7px gray;
+}
+.forShadow button{
+    float: right;
+    clear: right;
+    border: none;
+    background-color: rgb(0, 0, 0,0.6);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 6px 12px;
+    margin-top: 10px;
+}
+.forShadow button:hover{
+    background-color: rgb(0, 0, 0,0.5);
+    transition: 0.4s;
+}
+.forhide{
+    display: none;
+}
+.resultCard{
+    display: none;
+}
+#firsthide{
+    padding-bottom: 50px;
+    padding-top: 80px;
+    margin-bottom: -18px;
+}
+#firsthide button{
+    border: none;
+    background-color: rgb(0, 0, 0,0.6);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 6px 12px;
+    margin-top: 10px;
+}
+#firsthide button:hover{
+    background-color: rgb(0, 0, 0,0.5);
+    transition: 0.4s;
+}
+.signout button{
+    margin-top: -27px !important;
+    float: right;
+    font-size: 15px;
+    width: 100px;
+    height: 35px;
+    background-color: antiquewhite;
+}

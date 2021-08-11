@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-auth.js"></script>
+
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyBDwdcHgTKlm48pfxsOnYpzP7QuZ9SjS_4",
+            authDomain: "quiz-app-e683b.firebaseapp.com",
+            projectId: "quiz-app-e683b",
+            storageBucket: "quiz-app-e683b.appspot.com",
+            messagingSenderId: "789511391999",
+            appId: "1:789511391999:web:153cfa450dc5d067f21aca",
+            measurementId: "G-T6E7GQKV3R"
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+
+<body>
+    <div class="levelMain">
+        <div class="signout">
+            <button onclick="signout()">Sign Out</button>
+        </div>
+        <!-- <div class="levelnav">
+            <script>document.write(`Welcome ${localStorage.getItem("name")}`)</script>
+        </div> -->
+        <h1>Click To Start</h1>
+        <div class="button">
+            <button onclick="easy()">Start Quiz</button><br>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
